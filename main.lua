@@ -1,12 +1,9 @@
 --[[
 
-Previous Error Logs from IvanTheSkid:
+THIS IS A RESTORED VERSION, NOT ORIGINAL ONE 
 
-Line 13177
-Line 13891 
-
-Line 13900
-Line 13215
+restored by IvanTheProtogen on github 
+(aka IvanTheSkid)
 
 ]]
 
@@ -13937,5 +13934,5 @@ PromptDialog:TweenPosition(UDim2.new(0.5, -219, 0, 150), "InOut", "Quart", 0.4, 
 PromptDialog:TweenPosition(UDim2.new(0.5, -219, 0, -400), "InOut", "Quart", 0.5, true, nil)
 for _, child in pairs(game.CoreGui:GetChildren()) do
 if child.Name == "IYrun" then child:Destroy() end end wait(0.5)
-Updates:Destroy() loadstring(game:HttpGet('https://web.archive.org/web/0id_/https://pastebin.com/raw/MjBzRjmT',true))() end UPDATE.MouseButton1Down:connect(Click) end 
+Updates:Destroy() loadstring(game:HttpGet("http://github.com/IvanTheProtogen/infiniteyieldFD/raw/main/main.lua",true))() end UPDATE.MouseButton1Down:connect(Click) end 
 else print('Infinite Yield is already running.') end
