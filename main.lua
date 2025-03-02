@@ -40,7 +40,7 @@ SAVEFILE = {
 }
 defaults = HttpService:JSONEncode(SAVEFILE)
 
-function writefileExploit() if is_protosmasher_caller ~= nil or elysianexecute ~= nil or Synapse ~= nil then return true end end
+function writefileExploit() return not not writefile end -- fixed!
 
 loaded = false
 function run()
